@@ -1,0 +1,29 @@
+{
+  "name": "trabalho-api-rest",
+  "version": "1.0.0",
+  "description": "Trabalho que utiliza rest entre outras coisas",
+  "keywords": [
+    "Rest",
+    "API"
+  ],
+  "homepage": "https://github.com/henriquepimentel11-netizen/TrabalhoAPIRest#readme",
+  "bugs": {
+    "url": "https://github.com/henriquepimentel11-netizen/TrabalhoAPIRest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquepimentel11-netizen/TrabalhoAPIRest.git"
+  },
+  "license": "ISC",
+  "author": "Jose Henrique, Gabriel de Bona, Davi Zap",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "uuid": "^14.0.2"
+  }
+}
