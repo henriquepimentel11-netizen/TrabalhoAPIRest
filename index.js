@@ -1,10 +1,12 @@
 const express = require('express')
 const swaggerUi = require('swagger-ui-express')
 const swaggerJsDoc = require('swagger-jsdoc')
-const routes = require('./routes')
+const routes = require('./src/routes')
 const cors = require('cors')
 const app = express()
 const PORT = 3000
+
+
 
 app.use(cors())
 
@@ -14,7 +16,7 @@ const options = {
         info: {
             title: "API Reservamento de salas",
             version: "1.0.0",
-            description: "API para realizar reservas de salas via Swagger",
+            description: "API para realizar reservas de salas",
         license: {
             name: 'Licenciado para DA 2',
         },
