@@ -1,8 +1,26 @@
 const express = require('express')
 const router = express.Router()
 const { v4: uuidv4 } = require('uuid')
+const fs = require('fs')
+const path = require('path')
 
-let empresasDB = []
+const DB_PATH = path.join(__dirname, '..', 'db', 'empresasDB.json')
+ 
+function lerEmpresasDB() {
+    try {
+        const conteudo = fs.readFileSync(DB_PATH, 'utf-8')
+        if (!conteudo.trim()) return []
+        return JSON.parse(conteudo)
+    } catch (err) {
+        return []
+    }
+}
+ 
+function salvarEmpresasDB() {
+    fs.writeFileSync(DB_PATH, JSON.stringify(empresasDB, null, 2), 'utf-8')
+}
+ 
+let empresasDB = lerEmpresasDB()
 
 /**
  * @swagger
