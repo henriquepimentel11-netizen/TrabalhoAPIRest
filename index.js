@@ -9,6 +9,7 @@ const PORT = 3000
 
 
 app.use(cors())
+app.use(express.json())
 
 const options = {
     definition: {
