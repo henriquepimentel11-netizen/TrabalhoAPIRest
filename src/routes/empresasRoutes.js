@@ -12,10 +12,11 @@ function lerEmpresasDB() {
         if (!conteudo.trim()) return []
         return JSON.parse(conteudo)
     } catch (err) {
+        console.error('Erro ao ler empresasDB:', err.message)
         return []
     }
 }
- 
+
 function salvarEmpresasDB() {
     fs.writeFileSync(DB_PATH, JSON.stringify(empresasDB, null, 2), 'utf-8')
 }
@@ -164,6 +165,7 @@ router.post('/', (req, res) => {
         telefone,
         Data_criacao
     })
+    salvarEmpresasDB()
     res.json({ message: 'Empresa criada com sucesso' })
 })
 
@@ -208,6 +210,7 @@ router.put('/:id', (req, res) => {
     empresaAtual.CNPJ = novaEmpresa.CNPJ
     empresaAtual.telefone = novaEmpresa.telefone
     empresaAtual.Data_criacao = novaEmpresa.Data_criacao
+    salvarEmpresasDB()
     res.json({ message: 'Empresa atualizada com sucesso' })
 })
 
@@ -237,6 +240,7 @@ router.delete('/:id', (req, res) => {
         return res.status(404).json({ message: 'Empresa não encontrada' })
     }
     empresasDB.splice(empresaIndex, 1)
+    salvarEmpresasDB()
     res.json({ message: 'Empresa excluída com sucesso' })
 })
 
