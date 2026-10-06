@@ -93,6 +93,15 @@ function saveData(data) {
 
 /**
  * @swagger
+ * tags:
+ *   name: Users
+ *   description: API de Controle de Usuarios
+ *     **Por GabrieL De Bona Sartor Mazzucco**
+ */
+
+
+/**
+ * @swagger
  * /usuarios:
  *   get:
  *     summary: Retorna a lista de usuários

@@ -23,7 +23,10 @@ const options = {
         },
         contact: {
             name: 'José Henrique Pereira Pimentel',
-            name: ' Gabriel de Bona'
+            name: ' Gabriel de Bona',
+            name: 'Matheus Miguel',
+            name: 'Pablo Augusto',
+            name: 'Davi Zapellini'
         },
             },
             servers: [
