@@ -22,12 +22,8 @@ const options = {
             name: 'Licenciado para DA 2',
         },
         contact: {
-            name: 'José Henrique Pereira Pimentel',
-            name: ' Gabriel de Bona',
-            name: 'Matheus Miguel',
-            name: 'Pablo Augusto',
-            name: 'Davi Zapellini'
-        },
+    name: "José Henrique Pereira Pimentel, Gabriel de Bona, Matheus Miguel, Pablo Augusto e Davi Zapellini"
+},
             },
             servers: [
                 {
