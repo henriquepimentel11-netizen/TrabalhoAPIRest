@@ -96,7 +96,7 @@ function saveData(data) {
  * tags:
  *   name: Users
  *   description: API de Controle de Usuarios
- *     **Por GabrieL De Bona Sartor Mazzucco**
+ *     **Por Gabriel De Bona Sartor Mazzucco**
  */
 
 
