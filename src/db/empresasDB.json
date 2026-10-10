@@ -6,5 +6,13 @@
     "CNPJ": "12.345.678/0001-90",
     "telefone": "(11) 1234-5678",
     "Data_criacao": "2023-01-01"
+  },
+  {
+    "ID": "224973bb-87f1-4eb2-b142-fa6ac1f45420",
+    "Nome_corporativo": "Empresa Secundaria Secundaria",
+    "Nome_Trade": "Exemplo",
+    "CNPJ": "15.345.678/0001-90",
+    "telefone": "(11) 1234-5678",
+    "Data_criacao": "2023-01-01"
   }
 ]
