@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "f75e23c0-6f4f-469c-aac3-cf40574d8758",
+    "space_id": "a1b2c3d4-1111-4222-8333-444455556666",
+    "day_of_week": 1,
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "is_external_allowed": true
+  }
+]

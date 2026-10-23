@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "3afe4457-8d9f-4e70-a27f-5a27952b1ea7",
+    "space_id": "a1b2c3d4-1111-4222-8333-444455556666",
+    "user_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "start_datetime": "2026-10-12T09:00:00",
+    "end_datetime": "2026-10-12T11:00:00",
+    "status": "PENDING",
+    "rejection_reason": null,
+    "created_at": "2026-10-10T00:07:19.970Z"
+  }
+]
