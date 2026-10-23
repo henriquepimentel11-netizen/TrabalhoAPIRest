@@ -11,12 +11,12 @@
   },
   {
     "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    "name": "Ana Silva",
-    "email": "ana.silva@empresa.com",
-    "password_hash": "hash_senha_456",
-    "role": "CLIENT",
-    "cpf_cnpj": "987.654.321-11",
-    "company_id": "2",
+    "name": "Gabriela De Bona (Atualizado)",
+    "email": "gabriel.novo@email.com",
+    "password_hash": "novasenha123",
+    "role": "ADMIN",
+    "cpf_cnpj": "123.456.789-00",
+    "company_id": "1",
     "created_at": "2026-09-05T14:30:00Z"
   },
   {
